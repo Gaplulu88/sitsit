@@ -1,0 +1,32 @@
+/* this is a comment */
+/* selector { property: value; }*/
+/* selectors---type p{..} Id #box{..} Class .thick {...} Compound h1, h2, #box {..} */
+/* Type Selector    p(..)-- selects all elements with matching selector name */
+/* Id Selector(deals with single element)    #box-- selects all elements with an id attribute value matching the selector name. <div id="box"> */
+/* Class Selector(spread thruout page among many elements)    .thick -- selects all elements with a class attribute value matching the selector name. <span class="thick"> */
+/* CompoundSelector    h1 h2 #box-- selects all matched elements in the compound set. */
+
+
+
+ #page1 {
+   background: blue;
+   height: 500px;
+ }
+
+ #page2 {
+   background: yellow;
+   height: 500px;
+ }
+
+  h1 {
+    font-size: 2.0em;
+  }
+
+  p  {
+    font-size: 1.5em;
+  }
+
+  ul li  {
+    background-color: orange;
+    font-size: 2.0em;
+  }
