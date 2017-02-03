@@ -6,7 +6,10 @@
 /* Class Selector(spread thruout page among many elements)    .thick -- selects all elements with a class attribute value matching the selector name. <span class="thick"> */
 /* CompoundSelector    h1 h2 #box-- selects all matched elements in the compound set. */
 
-
+@import url(https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(https://fonts.googleapis.com/css?family=Clicker+Script);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
 
  #page1 {
    background: blue;
@@ -17,16 +20,19 @@
  #page2 {
    background: yellow;
    height: 500px;
+   margin: 50px 0px 0px 0px;
  }
 
  #page3 {
    background: aqua;
    height: 500px;
+   margin: 50px 0px 0px 0px;
  }
 
  #page4 {
    background: green;
    height: 500px;
+   margin: 50px 0px 0px 0px;
  }
 
 
@@ -47,9 +53,11 @@
   #nav_bar {
     width: 100%;
     height: 50px;
-    top: 0;
-    left: 0;
+    top: -10px;
+    left: 50%;
     right: 0;
     position: fixed;
     z-index: 9999;
+    font-family: 'clicker + script';
+    margin-left: -250px;
   }
